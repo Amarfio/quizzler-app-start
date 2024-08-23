@@ -5,7 +5,7 @@ parameters = {
     "type": "boolean"
 }
 # response = requests.get(url="https://opentdb.com/api.php?amount=10&type=boolean")
-response = requests.get(url="https://opentdb.com/api.php?amount=10&type=boolean", params=parameters)
+response = requests.get(url="https://opentdb.com/api.php?", params=parameters)
 print("here the response dey!!!")
 # print(response.json());
 
